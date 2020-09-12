@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+<center>
+
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://lh3.googleusercontent.com/proxy/vwUJfb6S4CA9L-qfbjdVd9Sxd_P5WPRz8KMu7iAxcpreSvpoccmGHAeb92wDEbCnuUTT5GTfuMS_cqbsHOoZxigP-zp-gJcwzxb6psI2kQbcRA">
+</div>
+<div class="title">
+ <h1>
+NUMBERS</h1>
+</div>
+<div class="des">
+ <p>Welcome Children..!Here we go.</p>
+<button><a href="{% url 'no'%}">Content...</a></button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQI-SyM7QP4k1IsfzJGjLIqoLxMu8X1PGkl_Q&usqp=CAU">
+</div>
+<div class="title">
+ <h1>
+RHYMES</h1>
+</div>
+<div class="des">
+ <p>Come on.. lets learn some rhymes.</p>
+<button><a href="{% url 'rhy'%}">Content...</a></button>
+</div>
+</div>
+<!--cards -->
+</center>
+</div>
+</body>
+</html>

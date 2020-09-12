@@ -1,0 +1,136 @@
+from django.http import HttpResponse
+from django.shortcuts import render
+
+def webpage1(request):
+    return render(request,'kin.html')
+
+def webpage2(request):
+    return render(request,'sub.html')
+
+def webpage3(request):
+    return render(request,'11_12.html') 
+
+def webpage4(request):
+    return render(request,'abt.html')
+def rhy(request):
+    return render(request,'rhy.html') 
+def no(request):
+    return render(request,'num.html')       
+def eng1(request):
+    return render(request,'1eng.html')
+def eng2(request):
+    return render(request,'2eng.html')
+def eng3(request):
+    return render(request,'3eng.html')
+def eng4(request):
+    return render(request,'4eng.html')
+def eng5(request):
+    return render(request,'5eng.html')
+def eng6(request):
+    return render(request,'6eng.html')
+def eng7(request):
+    return render(request,'7eng.html')
+def eng8(request):
+    return render(request,'8eng.html')
+def eng9(request):
+    return render(request,'9eng.html')
+def eng10(request):
+    return render(request,'10eng.html') 
+def math1(request):
+    return render(request,'1math.html')  
+def math2(request):
+    return render(request,'1math.html')
+def math3(request):
+    return render(request,'1math.html')
+def math4(request):
+    return render(request,'1math.html')
+def math5(request):
+    return render(request,'1math.html')
+def math6(request):
+    return render(request,'1math.html')
+def math7(request):
+    return render(request,'1math.html')
+def math8(request):
+    return render(request,'1math.html')
+def math9(request):
+    return render(request,'1math.html')
+def math10(request):
+    return render(request,'1math.html') 
+def sci1(request):
+    return render(request,'1sci.html')
+def sci2(request):
+    return render(request,'1sci.html')
+def sci3(request):
+    return render(request,'1sci.html')
+def sci4(request):
+    return render(request,'1sci.html')
+def sci5(request):
+    return render(request,'1sci.html')
+def sci6(request):
+    return render(request,'1sci.html')
+def sci7(request):
+    return render(request,'1sci.html')
+def sci8(request):
+    return render(request,'1sci.html')
+def sci9(request):
+    return render(request,'1sci.html')
+def sci10(request):
+    return render(request,'1sci.html') 
+def soci1(request):
+    return render(request,'1soci.html') 
+def soci2(request):
+    return render(request,'1soci.html')
+def soci3(request):
+    return render(request,'1soci.html')
+def soci4(request):
+    return render(request,'1soci.html')
+def soci5(request):
+    return render(request,'1soci.html')
+def soci6(request):
+    return render(request,'1soci.html')
+def soci7(request):
+    return render(request,'1soci.html')
+def soci8(request):
+    return render(request,'1soci.html')
+def soci9(request):
+    return render(request,'1soci.html')
+def soci10(request):
+    return render(request,'1soci.html') 
+def cs12(request):
+    return render(request,'12cs.html')
+def phy12(request):
+    return render(request,'12phy.html')
+def math12(request):
+    return render(request,'12math.html')
+def bio12(request):
+    return render(request,'12bio.html')
+def chem12(request):
+    return render(request,'12chem.html')
+def acc12(request):
+    return render(request,'12acc.html')
+def bus12(request):
+    return render(request,'12bus.html') 
+def cs11(request):
+    return render(request,'11cs.html') 
+def phy11(request):
+    return render(request,'11phy.html') 
+def chem11(request):
+    return render(request,'11chem.html') 
+def acc11(request):
+    return render(request,'11acc.html') 
+def bio11(request):
+    return render(request,'11bio.html') 
+def math11(request):
+    return render(request,'11math.html') 
+def bus11(request):
+    return render(request,'12bus.html')                                                    
+def ebk(request):
+    return render(request,'ebook.html')
+def back(request):
+    return render(request,'index.html')
+def back1(request):
+    return render(request,'index1.html')
+def qb(request):
+    return render(request,'qb.html')            
+
+

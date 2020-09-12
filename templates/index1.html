@@ -1,0 +1,139 @@
+<html>
+    <head>
+           <title>easy learning</title> {% load static %}
+           <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+           <style type = "text/css">
+          
+      
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+body
+  {
+         background-image:url('https://miro.medium.com/max/760/1*4ZquoiaabIC62b2WQtXTjw.jpeg');
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+background-repeat:no-repeat;
+
+
+}
+</style>
+           
+
+
+
+
+
+
+
+           
+    </head>
+     <h1> Welcome to online tutoring</h1> 
+
+    <body>
+        <div class="navbar">
+  <a href="#home">HOME</a>
+  <a href="{% url 'webpage4'%}">ABOUT US</a>
+  <div class="dropdown">
+    <button class="dropbtn">GRADE
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="{% url 'webpage1'%}">kinder garden</a>
+      <a href="{% url 'webpage2'%}">GRADE-1</a>
+      <a href="{% url 'webpage2'%}">GRADE-2</a>
+      <a href="{% url 'webpage2'%}">GRADE-3</a>
+      <a href="{% url 'webpage2'%}">GRADE-4</a>
+      <a href="{% url 'webpage2'%}">GRADE-5</a>
+      <a href="{% url 'webpage2'%}">GRADE-6</a>
+      <a href="{% url 'webpage2'%}">GRADE-7</a>
+      <a href="{% url 'webpage2'%}">GRADE-8</a>
+      <a href="{% url 'webpage2'%}">GRADE-9</a>
+      <a href="{% url 'webpage2'%}">GRADE-10</a>
+      <a href="{% url 'webpage3'%}">GRADE-11</a>
+      <a href="{% url 'webpage3'%}">GRADE-12</a>
+      
+      </div>
+  </div> 
+
+ 
+  <a href="{% url 'ebk'%}">E-BOOKS</a>
+  <a href="#ebooks">Teachers</a>
+  <a href="{% url 'qb'%}">10,11&12 QB</a>
+
+  <algin ='right'><a href="#">LOGOUT</a></algin>
+ 
+  </div>
+    <!-- <h1>List if Bio<h1>
+      {%for i in data%}          this is for showing backend details in frontend
+        {{i.Name}}<br>
+        {{i.Email}}<br>
+      {% endfor %}
+      --> 
+        
+   </body>
+
+</html>
